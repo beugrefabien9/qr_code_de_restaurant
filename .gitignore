@@ -1,0 +1,39 @@
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.pytest_cache/
+*.sqlite3
+
+# React / Node.js
+node_modules/
+dist/
+build/
+.env.local
+.env.development.local
+.env.production.local
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+.vscode/
+# Dépendances Laravel et React
+/backend-laravel/vendor/
+/frontend/node_modules/
+
+# Fichiers de cache et logs
+/backend-laravel/storage/logs/*
+/backend-laravel/bootstrap/cache/*
+*.log
+# Fichiers temporaires TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
